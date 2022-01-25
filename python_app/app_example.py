@@ -87,4 +87,4 @@ def download(filename):
     return send_from_directory(directory=uploads, filename=filename, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host=server_ip')
